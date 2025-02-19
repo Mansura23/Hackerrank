@@ -4,13 +4,11 @@ import java.util.Scanner;
 
 public class Java_StdinStdout_II {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        int myInt=scanner.nextInt();
-        Double myDouble=scanner.nextDouble();
+        Scanner scanner = new Scanner(System.in);
+        int myInt = scanner.nextInt();
+        Double myDouble = scanner.nextDouble();
         scanner.nextLine();
-        String myString=scanner.nextLine();
-
-
+        String myString = scanner.nextLine();
 
 
         System.out.println("String: " + myString);
